@@ -1,0 +1,40 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    text-align: center;
+  }
+body{
+    display: flex;
+    align-items: center;
+justify-content: center;
+    min-height: 100vh;
+    background-color: #0A1828;  
+}
+.container{
+    width: 850px;
+    background: #178582;
+     gap: 70px;
+     align-items: center;
+    justify-content: center;
+    padding: 60px 40px;
+    border-radius: 10px;
+}
+
+.float-right{
+text-align: right;
+color: red;
+font-weight: bold;
+}
+
+#hangmanPic {
+    display: block;
+    margin: 0 auto;
+  }
+
+
+
+
